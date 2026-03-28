@@ -1,0 +1,93 @@
+Python:
+
+1)
+Variable:
+Used to store data values.
+Created when you assign values to them, don't need to declare there type (python dynamically typed).
+
+Naming rules:
+Variable names can contain:
+Letters(a-z,A-Z)
+Numbers(0-9)
+Underscore(_)
+Variable names must start with letters and underscore
+Variable names are case-sensitive(Name and name are different).
+
+Syntax:
+X=5 #assigning integer value to variable X.
+Y = "hello" #assigning character value to variable Y.
+ex:
+name="divya"
+roll no=21
+
+2. 
+Data Types
+Python has various built-in data types. 
+Some common ones are:
+
+int: For integers (e.g., 1, -3, 100)
+float: For floating-point numbers (e.g., 3.14, -0.001)
+str: For strings (e.g., "Hello", "Python")
+bool: For boolean values (True or False)
+
+Type Checking:
+You can use the type() function to check the type of a variable.
+
+x = 10
+print(type(x))  # Output: <class 'int'>
+
+3. Type Conversion
+Python allows you to convert between data types using functions like int(), float(), str(), etc.
+
+Example:
+x = "10"  # x is a string
+y = int(x)  # Convert string to integer
+z = float(y)  # Convert integer to float
+print(z)  # Output: 10.0
+
+4. 
+Arithmetic Operators
+Python supports basic arithmetic operations like addition, subtraction, multiplication, division, and more.
+
+Common Operators:
++ (Addition)
+- (Subtraction)
+* (Multiplication)
+/ (Division)
+// (Floor Division)
+% (Modulus)
+** (Exponentiation)
+Examples:
+a = 10
+b = 3
+print(a + b)  # Output: 13
+print(a - b)  # Output: 7
+print(a * b)  # Output: 30
+print(a / b)  # Output: 3.3333...
+print(a // b)  # Output: 3 (Floor Division)
+print(a % b)  # Output: 1 (Modulus)
+print(a ** b)  # Output: 1000 (Exponentiation)
+
+5. 
+Assigning Values to Multiple Variables:
+Python allows you to assign values to multiple variables in a single line.
+
+Example:
+x, y, z = 10, 20, 30
+print(x)  # Output: 10
+print(y)  # Output: 20
+print(z)  # Output: 30
+You can also assign the same value to multiple variables in one line:
+
+x = y = z = 100
+print(x, y, z)  # Output: 100 100 100
+
+6. 
+Variable Reassignment
+You can change the value of a variable at any point in your program.
+
+Example:
+x = 5
+print(x)  # Output: 5
+x = 10
+print(x)  # Output: 10
