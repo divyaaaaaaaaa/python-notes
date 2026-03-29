@@ -1,0 +1,7 @@
+Create a list of elements and convert it into both a tuple and a set.
+Print both the tuple and the set.
+
+Ans:l=[2,"apple",21,"grapes"]
+l1=set(l)
+l2=tuple(l)
+print(f"{l1},{l2}") #o/p:{2, 'apple', 'grapes', 21},(2, 'apple', 21, 'grapes')
