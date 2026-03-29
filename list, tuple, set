@@ -1,7 +1,21 @@
+1)
 Create a list of elements and convert it into both a tuple and a set.
-Print both the tuple and the set.
+Print both the tuple and the set.?
 
 Ans:l=[2,"apple",21,"grapes"]
 l1=set(l)
 l2=tuple(l)
 print(f"{l1},{l2}") #o/p:{2, 'apple', 'grapes', 21},(2, 'apple', 21, 'grapes')
+
+2)
+create list, tuple, and set with only one value.?
+# List with one element
+l = [5]
+
+# Tuple with one element
+t = (5,)   # comma is very important!
+
+# Set with one element
+s = {5}
+
+print(f"List:, {l}, tuple, {t}, set {s}," ) #o/p: List:, [5], tuple, (5,), set {5},
