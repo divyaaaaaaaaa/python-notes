@@ -1,0 +1,18 @@
+{'orange', 'mango', 'apple', 'grapes'}
+s.remove("mango")
+print(s) #o/p:{'orange', 'apple', 'grapes'}
+
+s.discard("mango")
+print(s) #o/p:{'orange', 'apple', 'grapes'}
+
+Key Difference (Important for interviews)
+
+| Method      | If element exists | If element does NOT exist |
+| ----------- | ----------------- | ------------------------- |
+| `remove()`  | Removes it        | ❌ Raises error            |
+| `discard()` | Removes it        | ✅ Does nothing            |
+
+s = {"apple", "banana"}
+
+s.remove("grapes")   # ❌ KeyError
+s.discard("grapes")  # ✅ No error
