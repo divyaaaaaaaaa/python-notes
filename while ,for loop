@@ -1,0 +1,21 @@
+ex:
+s="level"
+while l in s:
+...
+Note here in l in (membership operator) when compiling it shows an error 
+so we need to declare the l before writing in while loop
+
+if same code written for loop
+s1="level"
+for l in s:
+...
+
+it will not show any error for the l in the membership operator
+
+important note:
+while loop 
+Before writing these, we need to initialize a variable, then in while loop we mention condition
+and inside the loop we use increment/decrement
+
+for loop
+in for loop it have initialization,condition,increment/decrement
