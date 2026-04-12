@@ -5,3 +5,37 @@ o/p:
 
 note:
 end=" " prints output in the same line by adding a space instead of moving to the next line.”
+
+ENUMERATE:
+enumerate() gives both index and value at the same time.
+example1
+NAME = "mountain"
+for index, letter in enumerate(NAME):
+   print(letter*(index+1))
+
+o/p:
+m
+oo
+uuu
+nnnn
+ttttt
+aaaaaa
+iiiiiii
+nnnnnnnn
+
+note:
+1) (index+1):here we mention index+1 because if index 0 means that m letter will not display so we mention (index+1)
+2) letter * (index + 1)
+Repeats each letter based on its position
+
+example2
+l = [12,21,1,18,26]
+for index, letter in enumerate(l):
+   print(f"{letter}no is {index}th index")
+
+o/p:
+12no is 0th index
+21no is 1th index
+1no is 2th index
+18no is 3th index
+26no is 4th index
