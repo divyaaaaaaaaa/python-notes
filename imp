@@ -39,3 +39,39 @@ o/p:
 1no is 2th index
 18no is 3th index
 26no is 4th index
+
+2) Using continue in a for Loop
+The continue statement is used to skip the current iteration of the loop and move on to the next one.
+
+Example: Skip a specific item in a list
+Let’s skip "Hubballi" while looping through the cities:
+
+cities = ["Bengaluru", "Mysuru", "Hubballi", "Mangaluru"]
+for city in cities:
+    if city == "Hubballi":
+        continue
+    print(city)
+Output:
+
+Bengaluru
+Mysuru
+Mangaluru
+
+Basic Idea
+
+When Python encounters continue, it:
+
+Stops the current iteration immediately
+Jumps back to the loop condition
+Starts the next iteration
+
+for i in range(1, 6):
+    if i == 3:
+        continue
+    print(i)
+
+o/p:
+1
+2
+4
+5
